@@ -1,4 +1,6 @@
 document.getElementById("reload-button").addEventListener("click", function () {
+  var audio= new Audio("dice.mp3");
+  audio.play();
   var randomNumber1 = Math.floor(Math.random() * 6) + 1;
   var randomNumber2 = Math.floor(Math.random() * 6) + 1;
 
